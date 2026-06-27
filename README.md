@@ -19,7 +19,7 @@ Interface graphique GTK3 pour nmap, développée en C++17.
 ## Dépendances
 
 ```bash
-sudo apt install nmap libgtk-3-dev g++ pkg-config
+sudo pacman -S nmap gtk3 glib2 pango cairo atk gdk-pixbuf2 harfbuzz pkgconf base-devel
 ```
 
 ## Compilation
